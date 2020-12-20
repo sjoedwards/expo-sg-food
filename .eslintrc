@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community/eslint-config",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "eslint-config-prettier"
+  ],
+  "settings": {
+    "import/ignore": [
+		  "node_modules/react-native/index\\.js$"
+	  ]
+  }
+}
